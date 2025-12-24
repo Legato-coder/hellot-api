@@ -28,3 +28,20 @@ Actuator
 
 Health: http://localhost:8080/actuator/health
 Info: http://localhost:8080/actuator/info
+
+
+
+PostMan curl
+
+to add a new record - http://localhost:8080/employees
+to fetch All Employees - http://localhost:8080/employees
+to fetch eployees by ID - http://localhost:8080/employees/5
+Request Body
+
+{
+  "name": "Tippi Reddy",
+  "department": "Physics",
+  "salary": 3000,
+  "city": "Kompally"
+}
+
